@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/src/CAAS.Data/bin/Debug/netcoreapp2.0
+/src/CAAS.Data/obj/Debug/netcoreapp2.0
+/src/CAAS.Web/bin/Debug/netcoreapp2.0
+/src/CAAS.Web/obj/Debug/netcoreapp2.0
