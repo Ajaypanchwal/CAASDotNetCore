@@ -1,0 +1,169 @@
+2017-09-11T13:08:28.6410994+05:30 0HL7OT0C1DSLT [INF] Info - Successful login for "tylerlrhodes@gmail.com" (2f0a74b7)
+2017-09-11T13:08:57.2324727+05:30 0HL7OT0C1DSLU [INF] Info - Logout for "tylerlrhodes@gmail.com" (260b42ac)
+2017-09-11T13:09:00.2586573+05:30 0HL7OT0C1DSLV [INF] Info - Successful login for "tylerlrhodes@gmail.com" (2f0a74b7)
+2017-09-11T13:16:43.9199861+05:30 0HL7OT0C1DSM0 [INF] Added Topic "ID". (6dce594c)
+2017-09-11T13:17:37.0259877+05:30 0HL7OT0C1DSM1 [INF] Successfully added Category with name "Admin" and description "Admin" (c0163988)
+2017-09-11T13:18:32.9216516+05:30 0HL7OT0C1DSM2 [INF] Creating user "shwetsna@moldedbits.com" (d75d61bd)
+2017-09-11T13:18:32.9507289+05:30 0HL7OT0C1DSM2 [INF] Setup user "shwetsna@moldedbits.com" as author "S" "S" (8d3cbc34)
+2017-09-11T13:18:32.9507289+05:30 0HL7OT0C1DSM2 [INF] Adding Authors role to user "shwetsna@moldedbits.com" (c1a7837a)
+2017-09-11T13:18:42.0355569+05:30 0HL7OT0C1DSM3 [INF] Info - Logout for "tylerlrhodes@gmail.com" (260b42ac)
+2017-09-11T13:18:48.7899489+05:30 0HL7OT0C1DSM4 [INF] Info - Successful login for "shwetsna@moldedbits.com" (2f0a74b7)
+2017-09-11T13:19:58.2195562+05:30 0HL7OT0C1DSM5 [INF] Added BlogPost "SS Post" by "S" "S" (663dbd95)
+2017-09-11T13:20:16.4743757+05:30 0HL7OT0C1DSM6 [WRN] Warning - BlogPost with Id 1 was not found. (4982541c)
+2017-09-11T13:20:50.1411073+05:30 0HL7OT0C1DSM7 [INF] Successfully updated BlogPost Id 1 (f1b17559)
+2017-09-11T13:20:50.1728335+05:30 0HL7OT0C1DSM7 [INF] Successfully set Topics for BlogPost 1 (fa01eedd)
+2017-09-11T13:20:50.2149577+05:30 0HL7OT0C1DSM7 [INF] Successfully set Categories for BlogPost 1 (b8abeed2)
+2017-09-11T13:20:57.7310540+05:30 0HL7OT0C1DSM8 [INF] Successfully updated BlogPost Id 1 (f1b17559)
+2017-09-11T13:20:57.7515838+05:30 0HL7OT0C1DSM8 [INF] Successfully set Topics for BlogPost 1 (fa01eedd)
+2017-09-11T13:20:57.7535851+05:30 0HL7OT0C1DSM8 [INF] Successfully set Categories for BlogPost 1 (b8abeed2)
+2017-09-11T13:21:03.6874045+05:30 0HL7OT0C1DSM9 [WRN] Warning - BlogPost with Id 1 was not found. (4982541c)
+2017-09-11T13:21:42.5724583+05:30 0HL7OT0C1DSMA [WRN] Warning - BlogPost with Id 1 was not found. (4982541c)
+2017-09-11T13:21:52.7269414+05:30 0HL7OT0C1DSMB [INF] Successfully updated BlogPost Id 1 (f1b17559)
+2017-09-11T13:21:52.7408081+05:30 0HL7OT0C1DSMB [INF] Successfully set Topics for BlogPost 1 (fa01eedd)
+2017-09-11T13:21:52.7533438+05:30 0HL7OT0C1DSMB [INF] Successfully set Categories for BlogPost 1 (b8abeed2)
+2017-09-11T13:21:58.2411984+05:30 0HL7OT0C1DSMC [WRN] Warning - BlogPost with Id 1 was not found. (4982541c)
+2017-09-11T13:57:00.0612003+05:30 0HL7OTRFMRS7L [WRN] Warning - BlogPost with Id 1 was not found. (4982541c)
+2017-09-11T13:58:25.0028940+05:30 0HL7OTRFMRS7M [WRN] Warning - BlogPost with Id 1 was not found. (4982541c)
+2017-09-11T13:59:58.7037209+05:30 0HL7OTRFMRS7N [WRN] Warning - BlogPost with Id 1 was not found. (4982541c)
+2017-09-11T14:03:27.4137931+05:30 0HL7OTV33SR3S [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Enumerable.Select[TSource,TResult](IEnumerable`1 source, Func`2 selector)
+   at CAAS.Data.Query.EFCoreQueryHandlers.GetBlogPostByIdViewModelEFQH.<HandleAsync>d__1.MoveNext() in D:\CAAS\src\CAAS.Data\Query\EFCoreQueryHandlers\GetBlogPostByIdViewModelEFQH.cs:line 32
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at CallSite.Target(Closure , CallSite , Object )
+   at CallSite.Target(Closure , CallSite , Object )
+   at CAAS.Data.Query.QueryProcessorAsync.<ProcessAsync>d__2`1.MoveNext() in D:\CAAS\src\CAAS.Data\Query\QueryProcessorAsync.cs:line 25
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CAAS.Controllers.HomeController.<BlogPost>d__10.MoveNext() in D:\CAAS\src\CAAS.Web\Controllers\HomeController.cs:line 175
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__27.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__25.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2017-09-11T17:12:48.2507026+05:30 0HL7P18SQV7IP [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CAAS.Controllers.AccountController.<Login>d__6.MoveNext() in D:\CAAS\src\CAAS.Web\Controllers\AccountController.cs:line 59
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__27.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__25.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2017-09-11T17:14:30.6224816+05:30 0HL7P19REKFHD [INF] Info - Successful login for "tylerlrhodes@gmail.com" (2f0a74b7)
+2017-09-11T17:15:32.7012706+05:30 0HL7P19REKFHE [INF] Creating user "ajay@moldedbits.com" (d75d61bd)
+2017-09-11T17:15:32.8483886+05:30 0HL7P19REKFHE [INF] Setup user "ajay@moldedbits.com" as author "A" "K" (8d3cbc34)
+2017-09-11T17:15:32.8493604+05:30 0HL7P19REKFHE [INF] Adding Authors role to user "ajay@moldedbits.com" (c1a7837a)
+2017-09-11T17:15:50.6249890+05:30 0HL7P19REKFHF [INF] Added Topic "A". (6dce594c)
+2017-09-11T17:16:04.9459434+05:30 0HL7P19REKFHG [INF] Successfully added Category with name "TOPIC1" and description "TOPIC1" (c0163988)
+2017-09-11T17:16:07.1407263+05:30 0HL7P19REKFHH [INF] Info - Logout for "tylerlrhodes@gmail.com" (260b42ac)
+2017-09-11T17:16:10.2149587+05:30 0HL7P19REKFHI [INF] Info - Successful login for "ajay@moldedbits.com" (2f0a74b7)
+2017-09-11T17:16:53.8151438+05:30 0HL7P19REKFHJ [INF] Added BlogPost "AAA" by "A" "K" (663dbd95)
+2017-09-11T17:17:03.2236808+05:30 0HL7P19REKFHK [INF] Successfully updated BlogPost Id 1 (f1b17559)
+2017-09-11T17:17:03.3309715+05:30 0HL7P19REKFHK [INF] Successfully set Topics for BlogPost 1 (fa01eedd)
+2017-09-11T17:17:03.4488811+05:30 0HL7P19REKFHK [INF] Successfully set Categories for BlogPost 1 (b8abeed2)
+2017-09-11T17:17:09.4517180+05:30 0HL7P19REKFHL [INF] Successfully updated BlogPost Id 1 (f1b17559)
+2017-09-11T17:17:09.4817991+05:30 0HL7P19REKFHL [INF] Successfully set Topics for BlogPost 1 (fa01eedd)
+2017-09-11T17:17:09.4938299+05:30 0HL7P19REKFHL [INF] Successfully set Categories for BlogPost 1 (b8abeed2)
